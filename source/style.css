@@ -109,20 +109,24 @@ hr {
   border: 0;
 }
 
-header {
-  margin-bottom: 20px;
+.superblack {
+  background-color: #090a0a;
+}
+
+main {
+  margin-bottom: 180px;
+}
+
+main .header {
+  margin-bottom: 12px;
 }
 
 main .container-md {
-  padding: 0px 0px 160px 0px;
+  padding: 0px 0px 180px 0px;
 }
 
 main .container {
-  padding: 0px 0px 80px 0px;
-}
-
-main.superblack {
-  background-color: #090a0a;
+  padding: 0px 0px 40px 0px;
 }
 
 .bggray {
@@ -289,6 +293,7 @@ nav.superblack {
 
 .herohome {
   position: relative;
+  height: auto;
 }
 
 .herohome .hero-overlay {
@@ -726,8 +731,6 @@ article p {
 
 .workbanner {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .workbanner ul {
@@ -743,7 +746,7 @@ article p {
 }
 
 .workbanner ul li img {
-  opacity: .55;
+  opacity: .7;
 }
 
 .hover-bg .hover-text {

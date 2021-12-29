@@ -831,25 +831,7 @@ footer {
 	}
 }
 @media (max-width: 428px) {
-	.herohome{
-		.hero-overlay {
-		text-align: left;
-		position: absolute;
-		top:0px;
-		//transform: translateY(12vw);
-		z-index: 0;
-		width: 75%;
-	}
-	}
-	.workbanner {
-		ul{
-	li{
-	margin-right:12px;	
-	img{
-		opacity:.7;
-	}
-	}
-}
+	
+
 	}
 
-}

@@ -899,20 +899,4 @@ footer a:hover {
   color: #FF4DED;
   text-decoration: underline;
 }
-
-@media (max-width: 428px) {
-  .herohome .hero-overlay {
-    text-align: left;
-    position: absolute;
-    top: 0px;
-    z-index: 0;
-    width: 75%;
-  }
-  .workbanner ul li {
-    margin-right: 12px;
-  }
-  .workbanner ul li img {
-    opacity: .7;
-  }
-}
 /*# sourceMappingURL=style.css.map */

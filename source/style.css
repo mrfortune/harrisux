@@ -20,7 +20,7 @@ html {
 
 h1 {
   font-weight: 900;
-  font-size: clamp(16px, 5vw, 48px);
+  font-size: clamp(12px, 5vw, 60px);
   margin-top: 0px;
   font-family: inherit;
   line-height: 1.2;
@@ -117,7 +117,7 @@ main {
   padding-bottom: 100px;
 }
 
-main .header {
+main header {
   margin-bottom: 12px;
 }
 
@@ -296,23 +296,26 @@ nav.superblack {
 }
 
 .herohome {
-  position: relative;
-  height: auto;
-}
-
-.herohome .hero-overlay {
-  text-align: left;
-  position: absolute;
-  transform: translateY(12vw);
-  z-index: 0;
-  width: 75%;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .herohome .hero-overlay h1 {
   text-transform: uppercase;
-  font-size: clamp(14px, 2vw, 48px);
+  font-size: clamp(14px, 2vw, 60px);
   color: #edebeb;
   font-weight: 900;
+}
+
+.herohome .hero-overlay h2 {
+  text-transform: uppercase;
+  font-size: clamp(14px, 2vw, 40px);
+  color: #edebeb;
+  font-weight: 700;
 }
 
 .herohome .hero-overlay p {

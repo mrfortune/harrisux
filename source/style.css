@@ -1,5 +1,5 @@
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Spectral', serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   font-weight: 400;
@@ -20,7 +20,7 @@ html {
 
 h1 {
   font-weight: 900;
-  font-size: clamp(12px, 5vw, 60px);
+  font-size: clamp(16px, 5vw, 60px);
   margin-top: 0px;
   font-family: inherit;
   line-height: 1.2;
@@ -41,7 +41,7 @@ h3 {
 }
 
 h4 {
-  font-size: clamp(14px, 5vw, 28px);
+  font-size: clamp(16px, 5vw, 28px);
   font-weight: 600;
   font-family: inherit;
   margin: 0px;
@@ -55,12 +55,12 @@ h5 {
 }
 
 p {
-  font-size: clamp(14px, 2vw, 16px);
+  font-size: clamp(16px, 5vw, 16px);
   line-height: 1.5;
 }
 
 h6 {
-  font-size: clamp(16px, 1vw, 20px);
+  font-size: clamp(16px, 5vw, 20px);
   font-weight: 500;
   font-family: inherit;
   line-height: 1.5;
@@ -306,20 +306,19 @@ nav.superblack {
 
 .herohome .hero-overlay h1 {
   text-transform: uppercase;
-  font-size: clamp(14px, 2vw, 60px);
+  font-size: clamp(16px, 5vw, 60px);
   color: #edebeb;
   font-weight: 900;
 }
 
 .herohome .hero-overlay h2 {
-  text-transform: uppercase;
-  font-size: clamp(14px, 2vw, 40px);
+  font-size: clamp(16px, 5vw, 40px);
   color: #edebeb;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .herohome .hero-overlay p {
-  font-size: clamp(12px, 0.8vw, 16px);
+  font-size: clamp(16px, 0.8vw, 16px);
   color: #edebeb;
   font-weight: 400;
 }

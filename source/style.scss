@@ -1,7 +1,7 @@
 
 body {
-	font-family: 'Spectral', serif;
-	//font-family:  'Work Sans', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
+	//font-family: 'Spectral', serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	font-weight: 400;
@@ -63,7 +63,7 @@ h6 {
 	margin: 0px;
 }
 a {
-	color: #ff00E5;
+	color: #ff0000;;
 	font-weight: 400;
 	text-decoration:none;
 	&:hover {
@@ -281,8 +281,8 @@ nav.superblack{
 	color: #edebeb;
 	font-weight: 900;
 	}
-	h2 {
-	font-size: clamp(16px, 5vw, 40px);
+	h3 {
+	font-size: clamp(16px, 5vw, 32px);
 	//transform: translateY(12vw);
 	color: #edebeb;
 	font-weight: 500;
@@ -297,9 +297,9 @@ nav.superblack{
 		//transform: translateY(14vw);
 		text-transform: uppercase;
 		color: #e5e5e5;
-		background-color: #FF00E6;
-		/*background-image: -webkit-gradient(linear, left top, right top, from(#5ca9fb), to(#6372ff));
-		background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);*/
+		background-color: #ff0000;
+		background-image: -webkit-gradient(linear, left top, right top, from(#5ca9fb), to(#6372ff));
+		background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
 		padding: 8px 16px;
 		letter-spacing: 1px;
 		margin: 0;
@@ -312,28 +312,28 @@ nav.superblack{
 		&:hover {
 			color:#e5e5e5;
 			background-image: none;
-			background-color: #802677;
+			background-color: #f175af;
 		}
 		&:focus {
 			color: #e5e5e5;
 			background-image: none;
-			background-color:#802677;
+			background-color:#f175af;
 		}
 		&:active {
 			color: #e5e5e5;
 			background-image: none;
-			background-color:#802677;
+			background-color:#f175af;
 		}
 	}
 	.btn-custom.focus {
 		color: #e5e5e5;
 		background-image: none;
-		background-color: #802677;
+		background-color: #f175af;
 	}
 	.btn-custom.active {
 		color: #e5e5e5;
 		background-image: none;
-		background-color:#802677;
+		background-color:#f175af;
 	}
 	.btn {
 		&:active {
@@ -562,24 +562,17 @@ background-color:#fffefe;
 .portfolio-item {
 	position: relative;
 	background-repeat:no-repeat;
-	.item-overlay {
-		text-align: left;
-		//position: absolute;
-		//z-index: 0;
-		display:block;
-		padding:20 0px;
-		width:60%;
-		h3{
-			text-transform:uppercase;
+		h2{
+		text-transform:uppercase;
 		font-size: clamp(16px,5vw, 28px);
 		//transform: translateY(3vw);
-		color: #333;
+		color: #e5e5e5;
 		font-weight: 700;
 		}
 		p{
 			font-size:clamp(16px, .5vw, 16px);
 			//transform: translateY(3vw);
-			color: #333;
+			color: #e5e5e5;
 			font-weight: 400;	
 		}
 		.btn-custom {
@@ -663,7 +656,7 @@ background-color:#fffefe;
 			outline-offset: none;
 		}
 		
-}
+
 }				
 
 
@@ -671,8 +664,6 @@ background-color:#fffefe;
 	display: flex;
 	ul{
 		padding:20px;
-		display:flex;
-		height:100%;
 		li{
 			float:left;
 			margin-right:48px;
@@ -821,7 +812,7 @@ footer {
 		background-color:#090a0a;	
 	}
 	a {
-		color: #FF00E5;
+		color: #ff0000;
 		text-decoration:none;
 		&:hover {
 			color:#FF4DED;
@@ -830,8 +821,5 @@ footer {
 }
 	}
 }
-@media (max-width: 428px) {
-	
 
-}
 

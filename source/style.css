@@ -1,5 +1,5 @@
 body {
-  font-family: 'Spectral', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   font-weight: 400;
@@ -68,7 +68,7 @@ h6 {
 }
 
 a {
-  color: #ff00E5;
+  color: #ff0000;
   font-weight: 400;
   text-decoration: none;
 }
@@ -311,8 +311,8 @@ nav.superblack {
   font-weight: 900;
 }
 
-.herohome .hero-overlay h2 {
-  font-size: clamp(16px, 5vw, 40px);
+.herohome .hero-overlay h3 {
+  font-size: clamp(16px, 5vw, 32px);
   color: #edebeb;
   font-weight: 500;
 }
@@ -326,9 +326,8 @@ nav.superblack {
 .herohome .hero-overlay .btn-custom {
   text-transform: uppercase;
   color: #e5e5e5;
-  background-color: #FF00E6;
-  /*background-image: -webkit-gradient(linear, left top, right top, from(#5ca9fb), to(#6372ff));
-		background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);*/
+  background-color: #ff0000;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   padding: 8px 16px;
   letter-spacing: 1px;
   margin: 0;
@@ -341,31 +340,31 @@ nav.superblack {
 .herohome .hero-overlay .btn-custom:hover {
   color: #e5e5e5;
   background-image: none;
-  background-color: #802677;
+  background-color: #f175af;
 }
 
 .herohome .hero-overlay .btn-custom:focus {
   color: #e5e5e5;
   background-image: none;
-  background-color: #802677;
+  background-color: #f175af;
 }
 
 .herohome .hero-overlay .btn-custom:active {
   color: #e5e5e5;
   background-image: none;
-  background-color: #802677;
+  background-color: #f175af;
 }
 
 .herohome .hero-overlay .btn-custom.focus {
   color: #e5e5e5;
   background-image: none;
-  background-color: #802677;
+  background-color: #f175af;
 }
 
 .herohome .hero-overlay .btn-custom.active {
   color: #e5e5e5;
   background-image: none;
-  background-color: #802677;
+  background-color: #f175af;
 }
 
 .herohome .hero-overlay .btn:active {
@@ -628,27 +627,20 @@ article p {
   background-repeat: no-repeat;
 }
 
-.portfolio-item .item-overlay {
-  text-align: left;
-  display: block;
-  padding: 20 0px;
-  width: 60%;
-}
-
-.portfolio-item .item-overlay h3 {
+.portfolio-item h2 {
   text-transform: uppercase;
   font-size: clamp(16px, 5vw, 28px);
-  color: #333;
+  color: #e5e5e5;
   font-weight: 700;
 }
 
-.portfolio-item .item-overlay p {
+.portfolio-item p {
   font-size: clamp(16px, 0.5vw, 16px);
-  color: #333;
+  color: #e5e5e5;
   font-weight: 400;
 }
 
-.portfolio-item .item-overlay .btn-custom {
+.portfolio-item .btn-custom {
   text-transform: uppercase;
   color: #fff;
   background-color: #C79800;
@@ -663,74 +655,74 @@ article p {
   border: 0;
 }
 
-.portfolio-item .item-overlay .btn-custom:hover {
+.portfolio-item .btn-custom:hover {
   color: #fff;
   background-image: none;
   background-color: #947100;
 }
 
-.portfolio-item .item-overlay .btn-custom:focus {
+.portfolio-item .btn-custom:focus {
   color: #fff;
   background-image: none;
   background-color: #947100;
 }
 
-.portfolio-item .item-overlay .btn-custom:active {
+.portfolio-item .btn-custom:active {
   color: #fff;
   background-image: none;
   background-color: #947100;
 }
 
-.portfolio-item .item-overlay .btn-custom.focus {
+.portfolio-item .btn-custom.focus {
   color: #fff;
   background-image: none;
   background-color: #947100;
 }
 
-.portfolio-item .item-overlay .btn-custom.active {
+.portfolio-item .btn-custom.active {
   color: #fff;
   background-image: none;
   background-color: #947100;
 }
 
-.portfolio-item .item-overlay .btn:active {
+.portfolio-item .btn:active {
   background-image: none;
   outline: 0;
   box-shadow: none;
 }
 
-.portfolio-item .item-overlay .btn:active:focus {
+.portfolio-item .btn:active:focus {
   outline: none;
   outline-offset: none;
 }
 
-.portfolio-item .item-overlay .btn:focus {
+.portfolio-item .btn:focus {
   outline: none;
   outline-offset: none;
 }
 
-.portfolio-item .item-overlay .btn:active.focus {
+.portfolio-item .btn:active.focus {
   outline: none;
   outline-offset: none;
 }
 
-.portfolio-item .item-overlay .btn.active {
+.portfolio-item .btn.active {
   background-image: none;
   outline: 0;
   box-shadow: none;
 }
 
-.portfolio-item .item-overlay .btn.active:focus {
+.portfolio-item .btn.active:focus {
   outline: none;
   outline-offset: none;
 }
 
-.portfolio-item .item-overlay .btn.focus {
+.portfolio-item .btn.focus {
   outline: none;
   outline-offset: none;
 }
 
-.portfolio-item .item-overlay .btn.active.focus {
+.portfolio-item .btn.active.focus {
   outline: none;
   outline-offset: none;
 }
@@ -741,8 +733,6 @@ article p {
 
 .workbanner ul {
   padding: 20px;
-  display: flex;
-  height: 100%;
 }
 
 .workbanner ul li {
@@ -890,7 +880,7 @@ footer.superblack {
 }
 
 footer a {
-  color: #FF00E5;
+  color: #ff0000;
   text-decoration: none;
 }
 

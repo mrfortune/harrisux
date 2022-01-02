@@ -1,7 +1,8 @@
 //@import '../node_modules/mdb-ui-kit/css/mdb.min.css';
 @import url("https://use.typekit.net/mkl0hak.css");
 body {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: futura-pt, sans-serif;
+	//font-family: 'Ubuntu', sans-serif;
 	//font-family: 'IBM Plex Sans', sans-serif;
 	//font-family: 'Spectral', serif;
 	text-rendering: optimizeLegibility !important;
@@ -19,6 +20,9 @@ html {
 	font-size:1rem;
 	width: 100% !important;
 	height: 100% !important;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: futura-pt, sans-serif;	
 }
 h1 {
 	font-weight: 900;

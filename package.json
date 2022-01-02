@@ -17,6 +17,7 @@
   "homepage": "https://github.com/mrfortune/harrisux#readme",
   "description": "",
   "dependencies": {
-    "bootstrap-icons": "^1.7.2"
+    "bootstrap-icons": "^1.7.2",
+    "mdb-ui-kit": "^3.10.1"
   }
 }

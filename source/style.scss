@@ -1,6 +1,8 @@
-@import '../node_modules/mdb-ui-kit/css/mdb.min.css';
+//@import '../node_modules/mdb-ui-kit/css/mdb.min.css';
+@import url("https://use.typekit.net/mkl0hak.css");
 body {
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	//font-family: 'IBM Plex Sans', sans-serif;
 	//font-family: 'Spectral', serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -62,6 +64,7 @@ h6 {
 	line-height: 1.5;
 	margin: 0px;
 }
+
 a {
 	color: #ff0000;;
 	font-weight: 400;

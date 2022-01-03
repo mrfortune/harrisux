@@ -107,7 +107,7 @@ hr {
 
 }
 .superblack{
-	background-color:#090a0a;	
+	background-image:linear-gradient(135deg, rgb(8, 8, 8), rgb(15, 15, 15));	
 }
 //header{
 	//margin-bottom:20px;
@@ -286,13 +286,16 @@ nav.superblack{
 	font-size: clamp(16px, 5vw, 60px);
 	//transform: translateY(12vw);
 	color: #edebeb;
-	font-weight: 900;
+	font-weight: 700;
+	letter-spacing:.1rem;
+	text-shadow:.1rem .1rem .1rem rgba(167, 167, 167, .8);
 	}
 	h3 {
 	font-size: clamp(16px, 5vw, 32px);
 	//transform: translateY(12vw);
 	color: #edebeb;
 	font-weight: 500;
+	letter-spacing:.1rem;
 	}
 	p{
 		font-size:clamp(16px, .8vw, 16px);

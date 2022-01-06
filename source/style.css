@@ -33,21 +33,21 @@ h1 {
 }
 
 h2 {
-  font-weight: 800;
-  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 700;
+  font-size: clamp(28px, 5vw, 46px);
   font-family: inherit;
 }
 
 h3 {
-  font-size: clamp(24px, 5vw, 33px);
-  font-weight: 700;
+  font-size: clamp(24px, 5vw, 38px);
+  font-weight: 500;
   font-family: inherit;
   margin: 0px;
 }
 
 h4 {
   font-size: clamp(20px, 5vw, 28px);
-  font-weight: 600;
+  font-weight: 500;
   font-family: inherit;
   margin: 0px;
 }
@@ -55,13 +55,13 @@ h4 {
 h5 {
   font-size: clamp(18px, 5vw, 24px);
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
   font-family: inherit;
   margin: 0px;
 }
 
 p {
-  font-size: clamp(16px, 5vw, 16px);
+  font-size: clamp(14px, 5vw, 16px);
   line-height: 1.5;
 }
 
@@ -404,6 +404,7 @@ nav.superblack {
 
 .fadeherohome .hero-overlay {
   padding: 20px;
+  transform: translateY(4vw);
   text-align: left;
   position: absolute;
   z-index: 0;
@@ -417,7 +418,7 @@ nav.superblack {
   font-weight: 900;
 }
 
-.fadeherohome .hero-overlay p {
+.fadeherohome .hero-overlay h3 {
   color: #333;
   font-weight: 400;
 }
@@ -428,6 +429,7 @@ nav.superblack {
 }
 
 .wsgrherohome .hero-overlay {
+  transform: translateY(4vw);
   padding: 20px;
   text-align: left;
   position: absolute;
@@ -437,13 +439,11 @@ nav.superblack {
 
 .wsgrherohome .hero-overlay h1 {
   text-transform: uppercase;
-  transform: translateY(4vw);
   color: #333;
   font-weight: 900;
 }
 
 .wsgrherohome .hero-overlay h3 {
-  transform: translateY(6vw);
   color: #333;
   font-weight: 400;
 }
@@ -454,10 +454,10 @@ nav.superblack {
 }
 
 .wineherohome .hero-overlay {
-  padding: 20px;
-  position: absolute;
   z-index: 0;
   transform: translateY(4vw);
+  padding: 20px;
+  position: absolute;
   width: 60%;
 }
 

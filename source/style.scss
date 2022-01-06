@@ -285,13 +285,13 @@ nav.superblack{
 	text-align:center;
 	.hero-overlay {
 	h1 {
-		text-transform:uppercase;
+		text-transform:normal;
 	font-size: clamp(16px, 5vw, 60px);
 	//transform: translateY(12vw);
 	color: #edebeb;
-	font-weight: 700;
+	font-weight: 800;
 	letter-spacing:.1rem;
-	text-shadow:.1rem .1rem .1rem rgba(167, 167, 167, .8);
+	//text-shadow:.1rem .1rem .1rem rgba(167, 167, 167, .8);
 	}
 	h3 {
 	font-size: clamp(16px, 5vw, 32px);
@@ -310,43 +310,43 @@ nav.superblack{
 		//transform: translateY(14vw);
 		text-transform: uppercase;
 		color: #e5e5e5;
-		background-color: #ff0000;
-		background-image: -webkit-gradient(linear, left top, right top, from(#5ca9fb), to(#6372ff));
-		background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+		//background-color: #ff0000;
+		background-image: -webkit-gradient(linear, left top, right top, from(#ff0000), to(rgb(238, 88, 100)00));
+		background-image: linear-gradient(to right, #ff0000 0%, #f88585 100%);
 		padding: 8px 16px;
 		letter-spacing: 1px;
 		margin: 0;
-		font-size:clamp(14px, 5vw, 14px);
+		font-size:clamp(16px, 5vw, 16px);
 		font-weight: 500;
 		border-radius: 25px;
 		//-webkit-transition: all 0.5s linear;
 		//transition: all 0.5s linear;
 		border: 0;
 		&:hover {
-			color:#e5e5e5;
+			color:#333;
 			background-image: none;
-			background-color: #f175af;
+			background-color: #f1e975;
 		}
 		&:focus {
-			color: #e5e5e5;
+			color: #333;
 			background-image: none;
-			background-color:#f175af;
+			background-color:#f1e975;
 		}
 		&:active {
-			color: #e5e5e5;
+			color: #333;
 			background-image: none;
-			background-color:#f175af;
+			background-color:#f1e975;
 		}
 	}
 	.btn-custom.focus {
-		color: #e5e5e5;
+		color: #333;
 		background-image: none;
-		background-color: #f175af;
+		background-color: #f1e975;
 	}
 	.btn-custom.active {
-		color: #e5e5e5;
+		color: #333;
 		background-image: none;
-		background-color:#f175af;
+		background-color:#f1e975;
 	}
 	.btn {
 		&:active {

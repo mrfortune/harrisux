@@ -314,12 +314,11 @@ nav.superblack {
 }
 
 .herohome .hero-overlay h1 {
-  text-transform: uppercase;
+  text-transform: normal;
   font-size: clamp(16px, 5vw, 60px);
   color: #edebeb;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: .1rem;
-  text-shadow: 0.1rem 0.1rem 0.1rem rgba(167, 167, 167, 0.8);
 }
 
 .herohome .hero-overlay h3 {
@@ -338,45 +337,44 @@ nav.superblack {
 .herohome .hero-overlay .btn-custom {
   text-transform: uppercase;
   color: #e5e5e5;
-  background-color: #ff0000;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-image: linear-gradient(to right, #ff0000 0%, #f88585 100%);
   padding: 8px 16px;
   letter-spacing: 1px;
   margin: 0;
-  font-size: clamp(14px, 5vw, 14px);
+  font-size: clamp(16px, 5vw, 16px);
   font-weight: 500;
   border-radius: 25px;
   border: 0;
 }
 
 .herohome .hero-overlay .btn-custom:hover {
-  color: #e5e5e5;
+  color: #333;
   background-image: none;
-  background-color: #f175af;
+  background-color: #f1e975;
 }
 
 .herohome .hero-overlay .btn-custom:focus {
-  color: #e5e5e5;
+  color: #333;
   background-image: none;
-  background-color: #f175af;
+  background-color: #f1e975;
 }
 
 .herohome .hero-overlay .btn-custom:active {
-  color: #e5e5e5;
+  color: #333;
   background-image: none;
-  background-color: #f175af;
+  background-color: #f1e975;
 }
 
 .herohome .hero-overlay .btn-custom.focus {
-  color: #e5e5e5;
+  color: #333;
   background-image: none;
-  background-color: #f175af;
+  background-color: #f1e975;
 }
 
 .herohome .hero-overlay .btn-custom.active {
-  color: #e5e5e5;
+  color: #333;
   background-image: none;
-  background-color: #f175af;
+  background-color: #f1e975;
 }
 
 .herohome .hero-overlay .btn:active {

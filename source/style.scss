@@ -162,11 +162,11 @@ a.navbar-brand {
 	height: 30px;
 	margin-top:12px;
 }
-/*.navbar {
-	/*border-color: rgba(231, 231, 231, 0);
-	/*-webkit-box-shadow: 0 0 10px rgb(0, 0, 0, 0.15);
-	box-shadow: 0 0 10px rgb(0, 0, 0, 0.15);
-}*/
+.navbar {
+	border-color: rgba(231, 231, 231, 0);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
 nav.superblack{
 	background-color:#090a0a;
 }

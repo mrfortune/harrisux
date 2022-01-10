@@ -424,8 +424,7 @@ a.navbar-brand {
 	height:auto;
 	.hero-overlay {
 	z-index: 0;	transform: translateY(4vw);
-
-		padding:20px;
+	padding:20px;
 	position: absolute;
 	width: 60%;
 	h1 {
@@ -581,13 +580,13 @@ background-color:#fffefe;
 	background-repeat:no-repeat;
 		h2{
 		text-transform:uppercase;
-		font-size: clamp(16px,5vw, 28px);
+		font-size: clamp(16px, 5vw, 48px);
 		//transform: translateY(3vw);
 		color: #e5e5e5;
 		font-weight: 700;
 		}
 		p{
-			font-size:clamp(16px, .5vw, 16px);
+			font-size:clamp(16px, 5vw, 16px);
 			//transform: translateY(3vw);
 			color: #e5e5e5;
 			font-weight: 400;	

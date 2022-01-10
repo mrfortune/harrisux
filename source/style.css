@@ -638,13 +638,13 @@ article p {
 
 .portfolio-item h2 {
   text-transform: uppercase;
-  font-size: clamp(16px, 5vw, 28px);
+  font-size: clamp(16px, 5vw, 48px);
   color: #e5e5e5;
   font-weight: 700;
 }
 
 .portfolio-item p {
-  font-size: clamp(16px, 0.5vw, 16px);
+  font-size: clamp(16px, 5vw, 16px);
   color: #e5e5e5;
   font-weight: 400;
 }

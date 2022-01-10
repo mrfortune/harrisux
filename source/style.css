@@ -126,7 +126,7 @@ hr {
 }
 
 main {
-  padding-top: 42px;
+  /*padding-top:42px;*/
 }
 
 main header {
@@ -138,7 +138,7 @@ main .container-md {
 }
 
 main .container {
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 main .container-fluid {

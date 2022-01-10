@@ -116,7 +116,7 @@ hr {
 }
 
 .superblack {
-  background-image: linear-gradient(135deg, #080808, #0f0f0f);
+  background-image: linear-gradient(135deg, rgba(24, 24, 24, 0.97), rgba(15, 15, 15, 0.97));
 }
 
 main {
@@ -181,10 +181,6 @@ a.navbar-brand {
 .navbar {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-}
-
-nav.superblack {
-  background-color: #090a0a;
 }
 
 .navbar-dark .navbar-nav .nav-link {

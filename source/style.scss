@@ -5,7 +5,49 @@
 	--rem: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);
 	font-size: var(--rem);
   }*/
-@import url("https://use.typekit.net/mkl0hak.css");
+
+  :root {
+	--ff-body: "Oswald", sans-serif !important;
+	--ff-heading: "Oswald", sans-serif;
+  
+	--clr-primary-400: hsl(60 100% 50%);
+	--clr-neutral-900: hsl(0 0% 0%);
+	--clr-neutral-100: hsl(0 0% 100%);
+  
+	--fs-xl: clamp(3.5rem, 12vw + 1rem, 12rem);
+	--fs-600: 2rem;
+	--fs-400: 1rem;
+  }
+  
+  @media (min-width: 40em) {
+	:root {
+	  --fs-600: 3rem;
+	  --fs-400: 1.125rem;
+	}
+  }
+  
+  *,
+  *::before,
+  *::after {
+	box-sizing: border-box;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  p,
+  blockquote {
+	margin: 0;
+	padding: 0;
+  }
+  
+  img {
+	display: block;
+	max-width: 100%;
+  }
+  
+//@import url("https://use.typekit.net/mkl0hak.css");
 body {
 	font-family: 'Oswald', sans-serif !important;
 	//font-family: 'Ubuntu', sans-serif;
@@ -75,7 +117,13 @@ h6 {
 	line-height: 1.5;
 	margin: 0px;
 }
-
+.flex-parent{
+	display:flex;
+	padding:12px;
+}
+.flex-parent > *{
+	flex-basis: 100%;
+}
 a {
 	color: #ff0000;;
 	font-weight: 400;

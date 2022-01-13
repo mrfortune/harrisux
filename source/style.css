@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-weight: 900;
-  font-size: clamp(1rem, 2vw, 4rem);
   margin-top: 0px;
   font-family: inherit;
   line-height: 1.2;
@@ -78,26 +77,22 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: clamp(0.9rem, 2vw, 3rem);
   font-family: inherit;
 }
 
 h3 {
-  font-size: clamp(0.8, 2vw, 2.8rem);
   font-weight: 500;
   font-family: inherit;
   margin: 0px;
 }
 
 h4 {
-  font-size: clamp(20px, 2vw, 28px);
   font-weight: 500;
   font-family: inherit;
   margin: 0px;
 }
 
 h5 {
-  font-size: clamp(18px, 2vw, 24px);
   text-transform: uppercase;
   font-weight: 400;
   font-family: inherit;
@@ -105,12 +100,10 @@ h5 {
 }
 
 p {
-  font-size: clamp(14px, 2vw, 16px);
   line-height: 1.5;
 }
 
 h6 {
-  font-size: clamp(14px, 2vw, 20px);
   font-weight: 500;
   font-family: inherit;
   line-height: 1.5;
@@ -119,6 +112,9 @@ h6 {
 
 .flex-parent {
   display: flex;
+}
+
+.flex-parent .flex-item {
   padding: 12px;
 }
 
@@ -177,7 +173,7 @@ hr {
 }
 
 main {
-  /*padding-top:42px;*/
+  padding-top: 42px;
   padding-bottom: 100px;
 }
 
@@ -395,7 +391,6 @@ a.navbar-brand {
   padding: 8px 16px;
   letter-spacing: 1px;
   margin: 0;
-  font-size: clamp(16px, 5vw, 16px);
   font-weight: 400;
   border-radius: 25px;
   border: 0;
@@ -466,10 +461,14 @@ a.navbar-brand {
   width: 60%;
 }
 
+.fadeherohome .hero-overlay h1, .fadeherohome .hero-overlay .h1 {
+  font-size: calc(.675rem + 1.5vw);
+}
+
 .fadeherohome .hero-overlay h1 {
   text-transform: uppercase;
   color: #333;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   font-weight: 700;
 }
 
@@ -490,6 +489,10 @@ a.navbar-brand {
   position: absolute;
   z-index: 0;
   width: 60%;
+}
+
+.wsgrherohome .hero-overlay h1, .wsgrherohome .hero-overlay .h1 {
+  font-size: calc(.675rem + 1.5vw);
 }
 
 .wsgrherohome .hero-overlay h1 {
@@ -513,7 +516,11 @@ a.navbar-brand {
   transform: translateY(4vw);
   padding: 20px;
   position: absolute;
-  width: 60%;
+  width: 70%;
+}
+
+.wineherohome .hero-overlay h1, .wineherohome .hero-overlay .h1 {
+  font-size: calc(.675rem + 1.5vw);
 }
 
 .wineherohome .hero-overlay h1 {
@@ -534,7 +541,7 @@ article {
 article .inset-image {
   float: left;
   margin-right: 1rem;
-  width: 250px;
+  width: 200px;
   shape-outside: circle(50%);
 }
 

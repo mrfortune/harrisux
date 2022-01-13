@@ -5,7 +5,7 @@
 	font-size: var(--rem);
   }*/
 :root {
-  --ff-body: "Oswald", sans-serif !important;
+  --ff-body: "Monteserat", sans-serif !important;
   --ff-heading: "Oswald", sans-serif;
   --clr-primary-400: hsl(60 100% 50%);
   --clr-neutral-900: hsl(0 0% 0%);
@@ -47,10 +47,10 @@ body {
   font-family: 'Oswald', sans-serif !important;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  font-weight: 400;
   line-height: 1.5;
   width: 100% !important;
   height: 100% !important;
+  padding-bottom: 320px;
 }
 
 html {
@@ -127,7 +127,7 @@ h6 {
 }
 
 a {
-  color: #ff0000;
+  color: #ff0000 !important;
   font-weight: 400;
   text-decoration: none;
 }
@@ -151,6 +151,10 @@ ul {
   moz-padding: 0;
 }
 
+li {
+  font-weight: 400px;
+}
+
 ol {
   list-style: none;
   padding: 0;
@@ -169,11 +173,12 @@ hr {
 }
 
 .superblack {
-  background-image: linear-gradient(135deg, rgba(24, 24, 24, 0.97), rgba(15, 15, 15, 0.97));
+  background-image: linear-gradient(135deg, rgba(16, 16, 16, 0.97), rgba(30, 30, 30, 0.98));
 }
 
 main {
   /*padding-top:42px;*/
+  padding-bottom: 100px;
 }
 
 main header {
@@ -237,8 +242,8 @@ a.navbar-brand {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #f8f9fa;
-  font-weight: 500;
+  color: #f8f9fa !important;
+  font-weight: 400;
 }
 
 .hero {
@@ -355,12 +360,13 @@ a.navbar-brand {
 }
 
 .herohome {
-  display: flex;
   width: 100vw;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+}
+
+.herohome .hero-overlay {
+  width: 60%;
+  margin: auto;
 }
 
 .herohome .hero-overlay h1 {
@@ -384,13 +390,13 @@ a.navbar-brand {
 
 .herohome .hero-overlay .btn-custom {
   text-transform: uppercase;
-  color: #e5e5e5;
+  color: #e5e5e5 !important;
   background-image: linear-gradient(to right, #ff0000 0%, #f88585 100%);
   padding: 8px 16px;
   letter-spacing: 1px;
   margin: 0;
   font-size: clamp(16px, 5vw, 16px);
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 25px;
   border: 0;
 }
@@ -464,12 +470,12 @@ a.navbar-brand {
   text-transform: uppercase;
   color: #333;
   margin-bottom: 32px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .fadeherohome .hero-overlay h3 {
   color: #333;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .wsgrherohome {
@@ -489,12 +495,12 @@ a.navbar-brand {
 .wsgrherohome .hero-overlay h1 {
   text-transform: uppercase;
   color: #333;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .wsgrherohome .hero-overlay h3 {
   color: #333;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .wineherohome {
@@ -518,7 +524,7 @@ a.navbar-brand {
 
 .wineherohome .hero-overlay h3 {
   color: #333;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 article {

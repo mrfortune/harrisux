@@ -7,7 +7,7 @@
   }*/
 
   :root {
-	--ff-body: "Monteserat", sans-serif !important;
+	--ff-body: "Merriweather", sans-serif !important;
 	--ff-heading: "Oswald", sans-serif;
   
 	--clr-primary-400: hsl(60 100% 50%);
@@ -49,7 +49,7 @@
   
 //@import url("https://use.typekit.net/mkl0hak.css");
 body {
-	font-family: 'Oswald', sans-serif !important;
+	font-family: 'Merriweather', sans-serif !important;
 	//font-family: 'Ubuntu', sans-serif;
 	//font-family: 'IBM Plex Sans', sans-serif;
 	//font-family: 'Spectral', serif;
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6{
 	//font-family:'Roboto', sans-serif !important;
 //}
 h1 {
-	font-weight: 900;
+	font-weight: 800;
 	//font-size:clamp(1rem, 2vw, 4rem);
 	margin-top: 0px;
 	font-family: inherit;
@@ -123,7 +123,7 @@ h6 {
 .flex-parent{
 	display:flex;
 	.flex-item{
-		padding:12px;
+		padding:1rem 1rem 1rem 0rem;
 	}
 }
 .flex-parent > *{
@@ -227,13 +227,14 @@ a.navbar-brand {
 	margin-top:12px;
 }
 .navbar {
-	border-color: rgba(231, 231, 231, 0);
+	border-bottom: 1px solid #919190;
 	-webkit-box-shadow: 0 0 10px rgba(61, 61, 61, 0.15);
 	box-shadow: 0 0 5px rgba(61, 61, 61, 0.15);
 }
 
 .navbar-dark .navbar-nav {
 		.nav-link {
+			font-family: 'Oswald', sans-serif !important;
 			color:#f8f9fa !important;
 			font-weight: 400;
 }
@@ -265,7 +266,7 @@ a.navbar-brand {
 	letter-spacing: 1px;
 	margin: 0;
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: 400;
 	border-radius: 25px;
 	-webkit-transition: all 0.5s linear;
 	transition: all 0.5s linear;
@@ -339,7 +340,11 @@ a.navbar-brand {
 	margin-top:20px;
 	background-size: cover;
 }
-
+.imagebox{
+	display:flex;
+	align-items: center;
+	margin:0 auto;
+}
 .herohome {
 	//display:flex;
 	width: 100vw;
@@ -348,7 +353,6 @@ a.navbar-brand {
     //align-items: center;
 	//text-align:center;
 	.hero-overlay {
-		width:80%;
 		margin:auto;
 	h1 {
 		text-transform:uppercase;
@@ -360,6 +364,7 @@ a.navbar-brand {
 	//text-shadow:.1rem .1rem .1rem rgba(167, 167, 167, .8);
 	}
 	h3 {
+	font-family: 'Merriweather', sans-serif !important;
 	//font-size: clamp(16px, 5vw, 32px);
 	//transform: translateY(12vw);
 	color: #edebeb;
@@ -367,7 +372,7 @@ a.navbar-brand {
 	letter-spacing:.1rem;
 	}
 	p{
-		font-size:clamp(16px, .8vw, 16px);
+		//font-size:clamp(16px, .8vw, 16px);
 		//transform: translateY(13vw);
 		color: #edebeb;
 		font-weight: 400;	
@@ -382,37 +387,38 @@ a.navbar-brand {
 		padding: 8px 16px;
 		letter-spacing: 1px;
 		margin: 0;
+		font-family: 'Oswald', sans-serif !important;
 		//font-size:clamp(16px, 5vw, 16px);
 		font-weight: 400;
 		border-radius: 25px;
-		//-webkit-transition: all 0.5s linear;
-		//transition: all 0.5s linear;
+		webkit-transition: all 0.5s linear;
+		transition: all 0.5s linear;
 		border: 0;
 		&:hover {
 			color:#333;
 			background-image: none;
-			background-color: #f1e975;
+			background-color: #fa8a0bd3;
 		}
 		&:focus {
 			color: #333;
 			background-image: none;
-			background-color:#f1e975;
+			background-color:#fa8a0bd3;
 		}
 		&:active {
 			color: #333;
 			background-image: none;
-			background-color:#f1e975;
+			background-color:#fa3b0b;
 		}
 	}
 	.btn-custom.focus {
 		color: #333;
 		background-image: none;
-		background-color: #f1e975;
+		background-color: #fa8a0bd3;
 	}
 	.btn-custom.active {
 		color: #333;
 		background-image: none;
-		background-color:#f1e975;
+		background-color:#fa8a0bd3;
 	}
 	.btn {
 		&:active {
@@ -466,6 +472,9 @@ a.navbar-brand {
 	position: relative;
 	margin-bottom:24px;
 	.hero-overlay {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		transform: translateY(4vw);
 		padding:20px;
 	text-align: left;
@@ -889,7 +898,9 @@ footer {
 	border-color: rgba(231, 231, 231, 0);
 	//-webkit-box-shadow: 0 0 10px rgba(0 0 0 15%);
 	box-shadow: 0 0 5px rgba(75, 74, 74, 0.3);
-	border-top: 1px solid transparent;
+	border-top: 1px solid #919190;
+	font-family: 'Oswald', sans-serif !important;
+	font-weight:300;
 	p {
 		color: #e5e5e5;
 	}
@@ -897,7 +908,7 @@ footer {
 		background-color:#090a0a;	
 	}
 	a {
-		color: #ff3131;
+		color: #b1aeae;
 		text-decoration:none;
 		&:hover {
 			color:#FF4DED;

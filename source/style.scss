@@ -7,7 +7,7 @@
   }*/
 
   :root {
-	--ff-body: "Merriweather", sans-serif !important;
+	--ff-body: "Merriweather", serif !important;
 	--ff-heading: "Oswald", sans-serif;
   
 	--clr-primary-400: hsl(60 100% 50%);
@@ -46,10 +46,8 @@
 	display: block;
 	max-width: 100%;
   }
-  
-//@import url("https://use.typekit.net/mkl0hak.css");
 body {
-	font-family: 'Merriweather', sans-serif !important;
+	font-family: 'Merriweather', serif !important;
 	//font-family: 'Ubuntu', sans-serif;
 	//font-family: 'IBM Plex Sans', sans-serif;
 	//font-family: 'Spectral', serif;
@@ -90,14 +88,14 @@ h2 {
 }
 h3 {
 	//font-size:clamp(.8, 2vw, 2.8rem);
-	font-weight: 500;
+	font-weight: 300;
 	font-family: inherit;
 
 	margin: 0px;
 }
 h4 {
 	//font-size:clamp(20px, 2vw, 28px);
-	font-weight: 500;
+	font-weight: 300;
 	font-family: inherit;
 
 	margin: 0px;
@@ -112,10 +110,12 @@ h5 {
 p {
 	//font-size:clamp(14px, 2vw, 16px);
 	line-height: 1.5;
+	margin-bottom:1rem;
+	font-weight:300px;
 }
 h6 {
 	//font-size:clamp(14px, 2vw, 20px);
-	font-weight:500;
+	font-weight:300;
 	font-family: inherit;
 	line-height: 1.5;
 	margin: 0px;
@@ -359,12 +359,12 @@ a.navbar-brand {
 	//font-size: clamp(28px, 5vw, 56px);
 	//transform: translateY(12vw);
 	color: #edebeb;
-	font-weight: 800;
+	font-weight: 500;
 	letter-spacing:.1rem;
 	//text-shadow:.1rem .1rem .1rem rgba(167, 167, 167, .8);
 	}
 	h3 {
-	font-family: 'Merriweather', sans-serif !important;
+	font-family: 'Merriweather', serif !important;
 	//font-size: clamp(16px, 5vw, 32px);
 	//transform: translateY(12vw);
 	color: #edebeb;
@@ -895,6 +895,7 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+	font-size:.75em;
 	border-color: rgba(231, 231, 231, 0);
 	//-webkit-box-shadow: 0 0 10px rgba(0 0 0 15%);
 	box-shadow: 0 0 5px rgba(75, 74, 74, 0.3);
@@ -908,8 +909,8 @@ footer {
 		background-color:#090a0a;	
 	}
 	a {
-		color: #b1aeae;
-		text-decoration:none;
+		color: #b1aeae !important;
+		text-decoration:underline;
 		&:hover {
 			color:#FF4DED;
 			text-decoration: underline;
